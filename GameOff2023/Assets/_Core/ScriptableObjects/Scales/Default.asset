@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328972559cabe51499e860f42d49d1bc, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  _name: Default Scale
+  _description: A scale that isn't interactable.
+  _sprite: {fileID: 21300000, guid: d10fbe457e550724d9bc995787f4ac7e, type: 3}
+  _scaleType: 0
+  _transformedScaleType: 0
+  _requiredTool: -1
+  _baseHealth: 0
+  _baseValue: 0
+  _resourceDropData: []
+  objectToInstantiate: {fileID: 6218736159700233405, guid: a251c676b62e5094083d6fc949faf086, type: 3}

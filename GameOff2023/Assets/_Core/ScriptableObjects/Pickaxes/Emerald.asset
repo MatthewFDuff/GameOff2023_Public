@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022971a6e00a68b47843820777303a50, type: 3}
+  m_Name: Emerald
+  m_EditorClassIdentifier: 
+  _pickaxeType: 5
+  _pickaxeSprite: {fileID: 0}
+  _pickaxeAnimatorController: {fileID: 9100000, guid: 3e7635ab7fd6a0d4da4675fae9e6ac45, type: 2}
+  _idleAnimation: {fileID: 7400000, guid: 3a1098a900fa3774783bf53692522c88, type: 2}
+  _pickaxeAnimation: {fileID: 7400000, guid: f71770f393d98f24893d4abd2df3f9d3, type: 2}

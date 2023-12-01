@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2598376925331863083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4139345752047348210}
+  m_Layer: 0
+  m_Name: BorderScales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4139345752047348210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598376925331863083}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1387566311014821459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3673378012942033477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1471235777699582287}
+  m_Layer: 0
+  m_Name: GameScales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471235777699582287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3673378012942033477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1387566311014821459}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8589336958686955324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387566311014821459}
+  - component: {fileID: 2461818875512275495}
+  - component: {fileID: 2192327153256865973}
+  - component: {fileID: 1741620637942527116}
+  - component: {fileID: 7843582780057486338}
+  m_Layer: 0
+  m_Name: ScaleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387566311014821459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589336958686955324}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4139345752047348210}
+  - {fileID: 1471235777699582287}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2461818875512275495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589336958686955324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4d7f6b8915b76488b28761a32603ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scalePrefab: {fileID: 282533497048287405, guid: 00e4c5a8699e7f44f9f5f1f5fcb80d24, type: 3}
+  _borderScalePrefab: {fileID: 6584481639634863185, guid: b194ef46d01e0f446a1593d137c94502, type: 3}
+  _scaleParentTransform: {fileID: 1471235777699582287}
+  _borderScaleParentTransform: {fileID: 4139345752047348210}
+  _allScalesCleanedEvent: {fileID: 11400000, guid: 572e0b37030e89c458470a7545ff6af2, type: 2}
+  _currentLevel: {fileID: 11400000, guid: 2d0a0c50677c23e4ea7c6c2530ba7232, type: 2}
+  _gridGenerator: {fileID: 7843582780057486338}
+  DefaultScale: {fileID: 11400000, guid: bd47a1606dbe7694a88ab8b0cbbfa208, type: 2}
+  CleanScale: {fileID: 11400000, guid: 58a970356c8e4154f9099c066b8b7e85, type: 2}
+  DirtyScale: {fileID: 11400000, guid: a66b9c5dfae549449bec815887cef146, type: 2}
+  CrystalScale: {fileID: 11400000, guid: 6370afd49e40da145a04978b5b89a03a, type: 2}
+  FireScale: {fileID: 11400000, guid: 284900d3556fa004bad4b1d771372f26, type: 2}
+  AirScale: {fileID: 11400000, guid: 924f3b0110fffc747a0b785c0c3c1e80, type: 2}
+  EarthScale: {fileID: 11400000, guid: 4782a6eec800d7945abcd86b4ec43758, type: 2}
+  WaterScale: {fileID: 11400000, guid: 304d4c58dad86eb4fbfd8de19d90893a, type: 2}
+  NatureScale: {fileID: 11400000, guid: 5361fd74788689a4db857177856fefc1, type: 2}
+--- !u!114 &2192327153256865973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589336958686955324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26dd0712fa26ef741a84384048d3cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 65d51c45467ac494fa412626c3d7efc2, type: 2}
+  Responce:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2461818875512275495}
+        m_TargetAssemblyTypeName: _Core._Scripts.Systems.ScaleManager, Assembly-CSharp
+        m_MethodName: HandleScaleCleaned
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1741620637942527116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589336958686955324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26dd0712fa26ef741a84384048d3cede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 1ec7c9242f377b546af218ce0a5e8ecd, type: 2}
+  Responce:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2461818875512275495}
+        m_TargetAssemblyTypeName: _Core._Scripts.Systems.ScaleManager, Assembly-CSharp
+        m_MethodName: HandleLevelStarted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7843582780057486338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589336958686955324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e816257ff7ee745b619acb2baae54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _origin: {x: 0, y: 0}
+  _width: 20
+  _height: 6
+  _borderWidth: 5
+  _borderHeight: 2
+  _horizontalOffset: 0.5
+  _verticalOffset: 1
+  _widthVariable: {fileID: 11400000, guid: b39c21a8ba08e334d8d45b9ed93e14ae, type: 2}
+  _heightVariable: {fileID: 11400000, guid: 96a44174752b46f479c92a834d97a4d5, type: 2}
+  _totalScalesVariable: {fileID: 11400000, guid: 0c2501e709eb72d40922a9cd5566c29d, type: 2}
+  _centerPointVariable: {fileID: 11400000, guid: 10e5da89db0204c4d8ea3e48ed37fda0, type: 2}
+  _showGizmos: 0
+  _scaleGizmoSize: 0.1
+  _scaleGizmoColor: {r: 0.6784314, g: 0.26666668, b: 0.26666668, a: 1}
+  _borderScaleGizmoSize: 0.1
+  _borderScaleGizmoColor: {r: 0.249644, g: 0.29456168, b: 0.6226415, a: 1}
+  _centerPointGizmoSize: 0.15
+  _centerPointGizmoColor: {r: 1, g: 1, b: 1, a: 1}

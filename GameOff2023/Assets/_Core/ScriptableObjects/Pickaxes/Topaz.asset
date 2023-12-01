@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022971a6e00a68b47843820777303a50, type: 3}
+  m_Name: Topaz
+  m_EditorClassIdentifier: 
+  _pickaxeType: 6
+  _pickaxeSprite: {fileID: 0}
+  _pickaxeAnimatorController: {fileID: 9100000, guid: 66124ae9eb0326c49bf02bf439fb680b, type: 2}
+  _idleAnimation: {fileID: 7400000, guid: 1655e0e0d0b4b6a47982f8fa0fc88d9b, type: 2}
+  _pickaxeAnimation: {fileID: 7400000, guid: 6bbef99a17c5f8443a8cad262b12f8ea, type: 2}

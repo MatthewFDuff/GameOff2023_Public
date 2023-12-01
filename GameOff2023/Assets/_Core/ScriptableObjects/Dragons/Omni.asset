@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b949a0204f87294e9d6f816bd724665, type: 3}
+  m_Name: Omni
+  m_EditorClassIdentifier: 
+  _name: Omni
+  _description: The ultimate dragon who rules the elements from the heavens.
+  _borderScaleColor: {r: 0.20161416, g: 0.07058822, b: 0.48235294, a: 1}
+  _cleanScaleColor: {r: 0.60770494, g: 0.25882357, b: 0.6431373, a: 1}
+  _dirtyScaleColor: {r: 0.8962264, g: 0.51998043, b: 0.87074167, a: 1}

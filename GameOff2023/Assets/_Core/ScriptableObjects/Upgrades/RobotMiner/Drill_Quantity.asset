@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343234e395432bc43938609059389240, type: 3}
+  m_Name: Drill_Quantity
+  m_EditorClassIdentifier: 
+  _name: Mining Robot++
+  _description: Increases total number of mining robots.
+  _sprite: {fileID: 21300000, guid: e3fbb9111ad9c164096ce8c0a772d0a3, type: 3}
+  _costs:
+  - Cost: 50
+    Description: Increases the total number of robot miners by 1.
+    Sprite: {fileID: 21300000, guid: e3fbb9111ad9c164096ce8c0a772d0a3, type: 3}
+    Value: 1
+  - Cost: 500
+    Description: Increases the total number of robot miners by 1.
+    Sprite: {fileID: 21300000, guid: c9de8556aac309c439fdd8daf42f6c41, type: 3}
+    Value: 1
+  - Cost: 1000
+    Description: Increases the total number of robot miners by 1.
+    Sprite: {fileID: 21300000, guid: be72037fa036d7a4f9b06d9a98886eb1, type: 3}
+    Value: 1
+  - Cost: 2500
+    Description: Increases the total number of robot miners by 1.
+    Sprite: {fileID: 21300000, guid: 1414ebf7e68d233408b034396cf76a31, type: 3}
+    Value: 1
+  - Cost: 5000
+    Description: Increases the total number of robot miners by 1.
+    Sprite: {fileID: 21300000, guid: 516852fc9d72122488389bb44c8fd15b, type: 3}
+    Value: 1
+  _defaultValue: 0
+  _upgradeVariable: {fileID: 11400000, guid: fad80f51fbf45594c9a3857adb39e3e2, type: 2}
+  _calculationType: 0

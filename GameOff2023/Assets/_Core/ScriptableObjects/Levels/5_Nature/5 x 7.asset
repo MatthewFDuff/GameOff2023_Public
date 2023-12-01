@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d52291032f73d24690bdb75ba2392e0, type: 3}
+  m_Name: 5 x 7
+  m_EditorClassIdentifier: 
+  _name: 'Nature Dragon: Level 7'
+  _description: 
+  _isUnlocked: 0
+  _dragonData: {fileID: 11400000, guid: d31cff99295b2c84d8f525919a774b9b, type: 2}
+  _scaleTypeDistribution:
+  - ScaleType: 2
+    Percentage: 64
+  - ScaleType: 1
+    Percentage: 30
+  - ScaleType: 8
+    Percentage: 6
+  _is100Percent: 1

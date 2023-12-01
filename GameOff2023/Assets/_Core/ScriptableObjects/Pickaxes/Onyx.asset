@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022971a6e00a68b47843820777303a50, type: 3}
+  m_Name: Onyx
+  m_EditorClassIdentifier: 
+  _pickaxeType: 3
+  _pickaxeSprite: {fileID: 0}
+  _pickaxeAnimatorController: {fileID: 9100000, guid: 7c6f5075357202d4eadee3a6a359fe69, type: 2}
+  _idleAnimation: {fileID: 7400000, guid: d1fe04e3beebb9e4cb5c89318312e691, type: 2}
+  _pickaxeAnimation: {fileID: 7400000, guid: f1f60003bb212b347b4c9218fb9d386f, type: 2}
